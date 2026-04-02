@@ -293,16 +293,20 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    flex: 0 0 280px;
-    max-width: 280px;
+    flex: 0 0 240px;
+    width: 240px;
+    max-width: 240px;
+    overflow: hidden;
 }
 
 .video-stack video {
-    width: 100%;
-    height: 155px;
+    display: block;
+    width: 240px;
+    height: 135px;
     object-fit: cover;
     border-radius: 8px;
     background: #111;
+    flex-shrink: 0;
 }
 
 .pillar-wide-content {
